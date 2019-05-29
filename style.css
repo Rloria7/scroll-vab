@@ -1,0 +1,90 @@
+html{
+scroll-behavior: smooth;
+}
+body{
+margin: 0;
+padding: 0;
+font-family: serif;
+}
+.navbar{
+position: fixed;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: row;
+flex-wrap: wrap;
+background-color: #648696;
+width: 100%;
+height: 70px;
+z-index: 1;
+}
+.nav{
+display: flex;
+justify-content: right;
+list-style: none;
+margin-right: 15%;
+}
+.logo{
+flex: 1 1 auto;
+margin-left: 10%;
+text-transform: uppercase;
+letter-spacing: 1px;
+font-weight: bold;
+font-size: 35px;
+}
+a{
+margin: 15px;
+color: #000;
+text-decoration: none;
+text-transform: uppercase;
+}
+a:hover{
+color: #000;
+}
+.home-area{
+position: relative;
+background-image: url(bg1.jpeg);
+width: 100%;
+height: 100vh;
+background-repeat: no-repeat;
+background-size: cover;
+}
+.about-area, .second-area, .services-area, .contact-area{
+position: relative;
+display: flex;
+justify-content: space-around;  
+align-items: center;
+flex-wrap: wrap;
+flex-direction: row;
+width: 100%;
+height: 700px;
+}
+.text{
+width: 65%;
+height: 80%;
+}
+h1{
+font-size: 50px;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+p{
+font-size: 24px;
+line-height: 50px;
+}
+.about-area, .contact-area{
+background: #333;
+color: #fff;
+}
+.second-area, .services-area{
+background: #fff;
+}
+footer{
+margin-top: 0;
+padding: 0;
+background-color: #648696;
+color: #000;
+height: 100%;
+}
+footer p{
+text-align: center;
+}
